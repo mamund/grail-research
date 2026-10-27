@@ -1,0 +1,12 @@
+**/node_modules/
+**/.env
+**/.env.*
+**/.DS_Store
+**/__pycache__/
+**/*.pyc
+**/*~
+*.aux
+*.log
+*.out
+*.synctex.gz
+# Preserve archived experimental results already included in the research package.

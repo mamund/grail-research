@@ -1,0 +1,107 @@
+[
+  {
+    "id": "E1",
+    "archive": "failure-recovery(1).zip",
+    "sha": "926db9f119aef57de4b796cee668af15de6dccaf715d85404456740039b06dca",
+    "goal": "customerOnboarded",
+    "reached": true,
+    "duration": 7.544149000000004,
+    "obs": 9,
+    "success": 7,
+    "fail": 2,
+    "trace": 34,
+    "trace_types": {
+      "affordance.selected": 9,
+      "stack.push": 9,
+      "condition.selected": 7,
+      "stack.pop": 9
+    },
+    "same": true,
+    "dep": "0.2.0",
+    "outcomes": ""
+  },
+  {
+    "id": "E2",
+    "archive": "nested-customer-onboarding.zip",
+    "sha": "493b6d8aa44a2795d737b640757f6c9148e60e8b072dc8dbe6db6b5835312df9",
+    "goal": "onboardingProcessed",
+    "reached": true,
+    "duration": 43.15218200000001,
+    "obs": 4,
+    "success": 4,
+    "fail": 0,
+    "trace": 15,
+    "trace_types": {
+      "affordance.selected": 4,
+      "stack.push": 4,
+      "condition.selected": 3,
+      "stack.pop": 4
+    },
+    "same": true,
+    "dep": "file:../../grail-release",
+    "outcomes": "verificationStatus=REJECTED, activationStatus=DENIED"
+  },
+  {
+    "id": "E3a",
+    "archive": "purchase-management(1).zip",
+    "sha": "bf9cb75216a45c524c776b2eab4a7da4db92f8b147f51d4a33ee4f3b2515e8a2",
+    "goal": "purchaseRecorded",
+    "reached": true,
+    "duration": 7465.471862,
+    "obs": 5,
+    "success": 5,
+    "fail": 0,
+    "trace": 19,
+    "trace_types": {
+      "affordance.selected": 5,
+      "stack.push": 5,
+      "condition.selected": 4,
+      "stack.pop": 5
+    },
+    "same": true,
+    "dep": "0.2.0",
+    "outcomes": "reviewStatus=approved, processingStatus=purchase-order-created"
+  },
+  {
+    "id": "E3b",
+    "archive": "purchase-management-reject.zip",
+    "sha": "8cf39c89c8a5a1d2005e24a04eec4ddc027dffe69e22beb55b84afa92406def8",
+    "goal": "purchaseRecorded",
+    "reached": true,
+    "duration": 5193.745693999999,
+    "obs": 5,
+    "success": 5,
+    "fail": 0,
+    "trace": 19,
+    "trace_types": {
+      "affordance.selected": 5,
+      "stack.push": 5,
+      "condition.selected": 4,
+      "stack.pop": 5
+    },
+    "same": true,
+    "dep": "0.2.0",
+    "outcomes": "reviewStatus=rejected, processingStatus=request-closed-rejected"
+  },
+  {
+    "id": "E3c",
+    "archive": "purchase-management-defer.zip",
+    "sha": "56eb754be448ee44df279a6950fed533183c0ccce101454f02868b44ea1dba13",
+    "goal": "purchaseRecorded",
+    "reached": true,
+    "duration": 3482.498929,
+    "obs": 5,
+    "success": 5,
+    "fail": 0,
+    "trace": 19,
+    "trace_types": {
+      "affordance.selected": 5,
+      "stack.push": 5,
+      "condition.selected": 4,
+      "stack.pop": 5
+    },
+    "same": true,
+    "dep": "0.2.0",
+    "outcomes": "reviewStatus=deferred, processingStatus=follow-up-pending"
+  }
+]

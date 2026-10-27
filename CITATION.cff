@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the GRAIL research paper and the versioned artifact release when available."
+type: software
+title: "GRAIL research: paper, experimental worlds, and evidence"
+authors:
+  - family-names: Amundsen
+    given-names: Mike
+    orcid: "https://orcid.org/0000-0002-9681-8338"
+repository-code: "https://github.com/mamund/grail-research"
+url: "https://github.com/mamund/grail-research"
+license: MIT
+# Draft metadata: do not add a version, release date, or DOI until a public release exists.
