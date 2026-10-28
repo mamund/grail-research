@@ -27,6 +27,7 @@ The tagged GitHub release and Zenodo deposit preserve the published package. Sub
 - [`evidence/evidence-register.md`](evidence/evidence-register.md) — original eleven recorded scenario executions.
 - [`evidence/reproduction-reports/`](evidence/reproduction-reports/) — separate behavioral re-execution reports.
 - [`research-notes/`](research-notes/) — supplementary working research documents, not independently peer-reviewed publications.
+- [`docs/publication-status.md`](docs/publication-status.md) — publication update and permanent archival DOI for the research artifacts.
 
 ## Experimental cases
 
