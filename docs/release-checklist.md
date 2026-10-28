@@ -1,21 +1,38 @@
-# Publication checklist
+# Publication checklist — release candidate
 
-- [ ] Review all files for secrets, personal data, machine-specific paths, and unintended generated artifacts.
-- [ ] Review and approve the proposed MIT / CC BY 4.0 licensing allocation.
-- [ ] Confirm author metadata and `CITATION.cff` before assigning a release version.
-- [ ] Check all experiment manifests, lockfiles, and source ZIP hashes.
-- [ ] Resolve or clearly document the E2 local runtime provenance limitation.
-- [ ] Test fresh dependency installation and record outcomes.
-- [ ] Verify E3 mock service, terminal prompts, and all three outcomes.
-- [ ] Decide whether to ship the original E4 harness unchanged plus a separately documented reproduction variant.
-- [ ] Check that paper's artifact-availability statement points to the real public repository/release (currently it does not).
-- [ ] Compile the final LaTeX and inspect PDF metadata, figures, tables, links.
-- [ ] Tag the reviewed public release; optionally archive and assign a DOI; update paper/CITATION after DOI exists.
+## Verified in staged package
 
-## Author decisions confirmed (2026-10-28)
+- [x] Approved manuscript v1.8 (LaTeX and PDF).
+- [x] Eleven original scenario executions indexed across E1–E6.
+- [x] Original evidence archives retained separately from reproduction reports.
+- [x] Repository file checksums verified in previous staged audit.
+- [x] MIT and CC BY 4.0 allocation approved by author.
+- [x] Historical E4 machine paths approved for unchanged preservation.
+- [x] E2 historical runtime provenance limitation disclosed.
+- [x] E4 timeout-harness limitation disclosed.
+- [x] Behavioral reproduction distinguished from clean-room reproduction.
+- [x] Local checkout compared with reviewed package; two superseded v1.4 manuscript files removed and committed/pushed (user-confirmed).
 
-- [x] Approve MIT for original executable code and experiment configurations.
-- [x] Approve CC BY 4.0 for paper, documentation, notes, and recorded evidence.
-- [x] Preserve original E4 evidence unchanged, including historical local paths.
-- [ ] Final review against the actual private Git checkout.
-- [ ] Final public release and citation/DOI metadata.
+## Before changing repository visibility
+
+- [ ] Confirm latest Git checkout has a clean working tree after metadata changes.
+- [ ] Verify no credentials, personal information, or unintended files in latest Git checkout; earlier automated scan is not a substitute for final manual review.
+- [ ] Validate `CITATION.cff`, README, licenses, and all relative links against latest checkout.
+- [ ] Check whether any original archive embeds materials that cannot be relicensed by the author.
+- [ ] Confirm the manuscript's artifact-availability statement remains truthful for the planned release stage.
+- [ ] Decide public release tag (`v1.0.0` proposed) and whether to use GitHub release assets.
+
+## Release and archive (do in order)
+
+- [ ] Commit and push reviewed metadata updates.
+- [ ] Change repository visibility to public after explicit author approval.
+- [ ] Create annotated Git tag and GitHub release (`v1.0.0` proposed); attach v1.8 PDF.
+- [ ] Verify public clone, links, download, and archive hashes.
+- [ ] If using Zenodo, connect repository and archive the tagged release; capture DOI.
+- [ ] After DOI exists, update citation metadata and any appropriate manuscript availability wording in a subsequent documented revision (do not retroactively alter tagged artifacts).
+
+## Known limitations (not blockers if disclosed)
+
+- Historical E2 runtime revision remains unidentified.
+- E4 cycle was observed to exceed the specified timeout, not proven nonterminating.
+- Clean-room reproduction has not been demonstrated.

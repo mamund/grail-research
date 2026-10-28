@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the GRAIL research paper and the versioned artifact release when available."
-type: software
+message: "Please cite the research paper; cite the tagged artifact release when referring to experimental materials."
+type: dataset
 title: "GRAIL research: paper, experimental worlds, and evidence"
 authors:
   - family-names: Amundsen
@@ -8,6 +8,14 @@ authors:
     orcid: "https://orcid.org/0000-0002-9681-8338"
 repository-code: "https://github.com/mamund/grail-research"
 url: "https://github.com/mamund/grail-research"
-# Mixed licensing: MIT for original code/configuration, CC BY 4.0 for paper/data/docs.
-# See LICENSES.md; no single license field can describe the entire package.
-# Do not add a release version, date, or DOI until publication.
+# Release version, release date, and DOI are intentionally absent until publication.
+# Mixed licensing: MIT (original code/configurations) and CC BY 4.0
+# (manuscript, documentation, research notes, and evidence); see LICENSES.md.
+preferred-citation:
+  type: article
+  title: "Bounded Autonomy Through Environmental Composition: An Experimental Study of the GRAIL Runtime"
+  authors:
+    - family-names: Amundsen
+      given-names: Mike
+      orcid: "https://orcid.org/0000-0002-9681-8338"
+  year: 2026

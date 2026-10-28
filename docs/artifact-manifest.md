@@ -24,3 +24,7 @@ The extracted trees omit `node_modules`, editor backup files, and Git metadata. 
 ## Publication disclosure and licensing decision (2026-10-28)
 
 The author approved MIT licensing for original executable code and experiment configurations, and CC BY 4.0 for the research paper, documentation, notes, and recorded evidence (see `LICENSES.md`). Original evidence archives remain unchanged, including local machine paths in E4 logs. These paths record the historical execution environment and are not required paths for reproduction.
+
+## Citation and release status (2026-10-28)
+
+The manuscript is version v1.8. The proposed repository release version is `v1.0.0`; this is not yet an issued tag. `CITATION.cff` prefers citation of the manuscript for the research argument and leaves the repository release version and DOI unset until publication. The manuscript availability statement remains unchanged until a public artifact actually exists.

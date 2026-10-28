@@ -1,6 +1,6 @@
 # GRAIL research — companion artifact package
 
-**Status: PRE-PUBLICATION REVIEW PACKAGE — NOT FOR PUBLIC RELEASE.** This is a proposed working tree for the private `mamund/grail-research` repository. It has not been certified as clean-room reproducible and is not a public release.
+**Status: RELEASE CANDIDATE — repository remains private pending final publication steps.** This package has not been certified as clean-room reproducible. No public release tag or archival DOI has yet been assigned.
 
 **Paper:** *Bounded Autonomy Through Environmental Composition: An Experimental Study of the GRAIL Runtime*  
 **Author:** Mike Amundsen (Independent Researcher)  
@@ -39,4 +39,4 @@ All six experiment families were behaviorally re-executed in the earlier verific
 
 ## License and citation
 
-See [`LICENSES.md`](LICENSES.md) and [`CITATION.cff`](CITATION.cff). Licensing allocation approved: MIT for original code/configurations and CC BY 4.0 for the paper, documentation, and recorded evidence. Historical E4 machine paths are preserved unchanged with author approval. Cite the final tagged artifact release when one exists; no DOI has yet been assigned.
+See [`LICENSES.md`](LICENSES.md) and [`CITATION.cff`](CITATION.cff). Licensing allocation approved: MIT for original code/configurations and CC BY 4.0 for the paper, documentation, and recorded evidence. Historical E4 machine paths are preserved unchanged with author approval. For the research argument, cite the manuscript (the preferred citation in `CITATION.cff`). For the executable worlds and evidence, cite the eventual tagged research artifact release. No DOI has yet been assigned.
