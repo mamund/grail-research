@@ -6,9 +6,11 @@ authors:
   - family-names: Amundsen
     given-names: Mike
     orcid: "https://orcid.org/0000-0002-9681-8338"
+version: "1.0.0"
+date-released: 2026-10-28
+doi: "10.5281/zenodo.23740177"
 repository-code: "https://github.com/mamund/grail-research"
 url: "https://github.com/mamund/grail-research"
-# Release version, release date, and DOI are intentionally absent until publication.
 # Mixed licensing: MIT (original code/configurations) and CC BY 4.0
 # (manuscript, documentation, research notes, and evidence); see LICENSES.md.
 preferred-citation:
