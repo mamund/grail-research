@@ -14,3 +14,13 @@ This package was assembled from the experiment archives and manuscript available
 Additional original archives include E3 rejected/deferred snapshots and an inspected runtime source archive. E3 snapshots are kept as distinct ZIPs because they may contain scenario-specific observations and mutable domain state. Source ZIP checksums appear in `SHA256SUMS`.
 
 The extracted trees omit `node_modules`, editor backup files, and Git metadata. **They are not historical exact directory images.** Where a package includes original `results/` or `config/observations.json`, those files are retained in the extracted tree; do not overwrite them when rerunning.
+
+## Publication-candidate manuscript
+
+- `paper/GRAIL-research-paper-v1.8.tex` — approved source (v1.8).
+- `paper/GRAIL-research-paper-v1.8.pdf` — compiled 19-page manuscript.
+- Manuscript v1.8 is not a public repository release or an assigned DOI.
+
+## Publication disclosure and licensing decision (2026-10-28)
+
+The author approved MIT licensing for original executable code and experiment configurations, and CC BY 4.0 for the research paper, documentation, notes, and recorded evidence (see `LICENSES.md`). Original evidence archives remain unchanged, including local machine paths in E4 logs. These paths record the historical execution environment and are not required paths for reproduction.

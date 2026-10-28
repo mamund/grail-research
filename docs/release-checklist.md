@@ -11,3 +11,11 @@
 - [ ] Check that paper's artifact-availability statement points to the real public repository/release (currently it does not).
 - [ ] Compile the final LaTeX and inspect PDF metadata, figures, tables, links.
 - [ ] Tag the reviewed public release; optionally archive and assign a DOI; update paper/CITATION after DOI exists.
+
+## Author decisions confirmed (2026-10-28)
+
+- [x] Approve MIT for original executable code and experiment configurations.
+- [x] Approve CC BY 4.0 for paper, documentation, notes, and recorded evidence.
+- [x] Preserve original E4 evidence unchanged, including historical local paths.
+- [ ] Final review against the actual private Git checkout.
+- [ ] Final public release and citation/DOI metadata.

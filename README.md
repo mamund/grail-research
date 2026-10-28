@@ -1,6 +1,6 @@
 # GRAIL research — companion artifact package
 
-**Status: PRE-PUBLICATION REVIEW PACKAGE.** This is a proposed working tree for the private `mamund/grail-research` repository. It has not been certified as clean-room reproducible and is not a public release.
+**Status: PRE-PUBLICATION REVIEW PACKAGE — NOT FOR PUBLIC RELEASE.** This is a proposed working tree for the private `mamund/grail-research` repository. It has not been certified as clean-room reproducible and is not a public release.
 
 **Paper:** *Bounded Autonomy Through Environmental Composition: An Experimental Study of the GRAIL Runtime*  
 **Author:** Mike Amundsen (Independent Researcher)  
@@ -11,9 +11,10 @@ The paper investigates whether bounded operational autonomy can arise from autho
 
 ## Start here
 
-- [`paper/grail-paper.pdf`](paper/grail-paper.pdf) — manuscript v1.4 (publication candidate).
+- [`paper/GRAIL-research-paper-v1.8.pdf`](paper/GRAIL-research-paper-v1.8.pdf) — publication-candidate manuscript v1.8 ([LaTeX source](paper/GRAIL-research-paper-v1.8.tex)).
 - [`docs/reproducibility.md`](docs/reproducibility.md) — experiment-by-experiment setup, commands, and known gaps.
 - [`docs/artifact-manifest.md`](docs/artifact-manifest.md) — provenance and archived source mappings.
+- [`evidence/scenario-index.md`](evidence/scenario-index.md) — eleven-scenario claim-to-evidence map.
 - [`evidence/evidence-register.md`](evidence/evidence-register.md) — original eleven recorded scenario executions.
 - [`evidence/reproduction-reports/`](evidence/reproduction-reports/) — separate behavioral re-execution reports.
 - [`research-notes/`](research-notes/) — supplementary working research documents, not independently peer-reviewed publications.
@@ -38,4 +39,4 @@ All six experiment families were behaviorally re-executed in the earlier verific
 
 ## License and citation
 
-See [`LICENSES.md`](LICENSES.md) and [`CITATION.cff`](CITATION.cff). Licensing terms are proposed for author approval before public release. Cite the final tagged artifact release when one exists; no DOI has yet been assigned.
+See [`LICENSES.md`](LICENSES.md) and [`CITATION.cff`](CITATION.cff). Licensing allocation approved: MIT for original code/configurations and CC BY 4.0 for the paper, documentation, and recorded evidence. Historical E4 machine paths are preserved unchanged with author approval. Cite the final tagged artifact release when one exists; no DOI has yet been assigned.

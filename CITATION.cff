@@ -8,5 +8,6 @@ authors:
     orcid: "https://orcid.org/0000-0002-9681-8338"
 repository-code: "https://github.com/mamund/grail-research"
 url: "https://github.com/mamund/grail-research"
-license: MIT
-# Draft metadata: do not add a version, release date, or DOI until a public release exists.
+# Mixed licensing: MIT for original code/configuration, CC BY 4.0 for paper/data/docs.
+# See LICENSES.md; no single license field can describe the entire package.
+# Do not add a release version, date, or DOI until publication.
