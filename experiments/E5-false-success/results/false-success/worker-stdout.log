@@ -1,0 +1,11 @@
+
+[CLIENT] Starting pursuit: recordCreated
+[CLIENT] Pushing goal affordance: recordCreation
+
+[SERVER] Attempting affordance: recordCreation
+[SERVER] Executing binding: ./capabilities/record.mjs :: recordCreation
+[SERVER] Binding succeeded: ./capabilities/record.mjs :: recordCreation
+[SERVER] Success: applying effects - recordCreated
+[CLIENT] Affordance succeeded: recordCreation
+[CLIENT] Goal reached: recordCreated
+E5_RESULT {"scenario":"false-success","goal":"recordCreated","reached":true,"externalRecordExists":false,"observationCount":1,"traceEventCount":3,"demonstratesFalseSuccess":true,"controlPassed":false}

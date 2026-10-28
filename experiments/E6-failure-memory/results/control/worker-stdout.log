@@ -1,0 +1,21 @@
+
+[CLIENT] Starting pursuit: workCompleted
+[CLIENT] Pushing goal affordance: completeWork
+
+[SERVER] Attempting affordance: completeWork
+[SERVER] Blocked: selected unmet precondition: conditionA
+[CLIENT] Pushing next affordance: sharedProducer
+
+[SERVER] Attempting affordance: sharedProducer
+[SERVER] Executing binding: ./capabilities/actions.mjs :: sharedProducer
+[SERVER] Binding succeeded: ./capabilities/actions.mjs :: sharedProducer
+[SERVER] Success: applying effects - conditionA,conditionB
+[CLIENT] Affordance succeeded: sharedProducer
+
+[SERVER] Attempting affordance: completeWork
+[SERVER] Executing binding: ./capabilities/actions.mjs :: completeWork
+[SERVER] Binding succeeded: ./capabilities/actions.mjs :: completeWork
+[SERVER] Success: applying effects - workCompleted
+[CLIENT] Affordance succeeded: completeWork
+[CLIENT] Goal reached: workCompleted
+E6_RESULT {"scenario":"control","passed":true,"actions":[{"action":"sharedProducer","result":"SUCCESS"},{"action":"completeWork","result":"SUCCESS"}]}

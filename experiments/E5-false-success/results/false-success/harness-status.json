@@ -1,0 +1,10 @@
+{
+  "scenario": "false-success",
+  "timeoutMs": 3000,
+  "elapsedMs": 224,
+  "timedOut": false,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "completed": true
+}

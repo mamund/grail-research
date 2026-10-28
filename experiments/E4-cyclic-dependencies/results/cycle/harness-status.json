@@ -1,0 +1,10 @@
+{
+  "scenario": "cycle",
+  "timeoutMs": 3000,
+  "elapsedMs": 3077,
+  "timedOut": true,
+  "exitCode": null,
+  "signal": "SIGKILL",
+  "error": "spawnSync /home/mca/.nvm/versions/node/v22.14.0/bin/node ETIMEDOUT",
+  "completed": false
+}

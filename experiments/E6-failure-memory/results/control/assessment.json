@@ -1,0 +1,36 @@
+{
+  "scenario": "control",
+  "passed": true,
+  "goalReached": true,
+  "actions": [
+    {
+      "action": "sharedProducer",
+      "result": "SUCCESS"
+    },
+    {
+      "action": "completeWork",
+      "result": "SUCCESS"
+    }
+  ],
+  "selectionEvents": [
+    {
+      "type": "affordance.selected",
+      "affordance": "completeWork",
+      "candidates": [
+        "completeWork"
+      ],
+      "sequence": 1
+    },
+    {
+      "type": "affordance.selected",
+      "affordance": "sharedProducer",
+      "candidates": [
+        "sharedProducer",
+        "alternativeA"
+      ],
+      "sequence": 4
+    }
+  ],
+  "sharedInvocationCount": 1,
+  "explanation": "Successful shared producer satisfied both conditions in one invocation."
+}

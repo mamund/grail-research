@@ -1,0 +1,93 @@
+[
+  {
+    "phase": "forward",
+    "pursuitId": "1d9414cb-2027-44b2-a6ca-f40ea01e3a0a",
+    "invocation": {
+      "id": "23c35106-33ca-46a5-81df-ba770f473eb2",
+      "affordance": "sharedProducer",
+      "timestamp": "2026-10-27T17:20:53.001Z",
+      "module": "./capabilities/actions.mjs",
+      "function": "sharedProducer",
+      "inputs": {
+        "mode": "failure"
+      }
+    },
+    "timing": {
+      "durationMs": 4.972116
+    },
+    "response": {
+      "error": "E6 intentional sharedProducer failure"
+    },
+    "outputs": {},
+    "result": "FAIL"
+  },
+  {
+    "phase": "forward",
+    "pursuitId": "1d9414cb-2027-44b2-a6ca-f40ea01e3a0a",
+    "invocation": {
+      "id": "9019b1d8-9c4d-43b5-91c9-5b93cc5e5398",
+      "affordance": "alternativeA",
+      "timestamp": "2026-10-27T17:20:53.008Z",
+      "module": "./capabilities/actions.mjs",
+      "function": "alternativeA",
+      "inputs": {}
+    },
+    "timing": {
+      "durationMs": 0.279591
+    },
+    "response": {
+      "result": {
+        "result": "SUCCESS",
+        "source": "alternativeA"
+      }
+    },
+    "outputs": {},
+    "result": "SUCCESS"
+  },
+  {
+    "phase": "forward",
+    "pursuitId": "1d9414cb-2027-44b2-a6ca-f40ea01e3a0a",
+    "invocation": {
+      "id": "c5e15335-dab7-4040-9705-1c2fb32c4d08",
+      "affordance": "alternativeB",
+      "timestamp": "2026-10-27T17:20:53.008Z",
+      "module": "./capabilities/actions.mjs",
+      "function": "alternativeB",
+      "inputs": {}
+    },
+    "timing": {
+      "durationMs": 0.478774
+    },
+    "response": {
+      "result": {
+        "result": "SUCCESS",
+        "source": "alternativeB"
+      }
+    },
+    "outputs": {},
+    "result": "SUCCESS"
+  },
+  {
+    "phase": "forward",
+    "pursuitId": "1d9414cb-2027-44b2-a6ca-f40ea01e3a0a",
+    "invocation": {
+      "id": "e355d815-0bc3-4db2-b15e-228c17c6eaca",
+      "affordance": "completeWork",
+      "timestamp": "2026-10-27T17:20:53.009Z",
+      "module": "./capabilities/actions.mjs",
+      "function": "completeWork",
+      "inputs": {}
+    },
+    "timing": {
+      "durationMs": 0.110168
+    },
+    "response": {
+      "result": {
+        "result": "SUCCESS",
+        "source": "completeWork"
+      }
+    },
+    "outputs": {},
+    "result": "SUCCESS"
+  }
+]

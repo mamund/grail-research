@@ -1,0 +1,36 @@
+{
+  "pursuitId": "1453b4b9-8c93-4edc-b174-56d751846b91",
+  "goal": "conditionA",
+  "reached": true,
+  "timing": {
+    "durationMs": 6.186384000000004
+  },
+  "worldstate": {
+    "conditionB": true,
+    "conditionA": true
+  },
+  "observations": [
+    {
+      "phase": "forward",
+      "pursuitId": "1453b4b9-8c93-4edc-b174-56d751846b91",
+      "invocation": {
+        "id": "7d85c073-b264-469b-90c7-cbe564e2f448",
+        "affordance": "establishA",
+        "timestamp": "2026-10-27T17:07:22.280Z",
+        "module": "./capabilities/establish.mjs",
+        "function": "establishA",
+        "inputs": {}
+      },
+      "timing": {
+        "durationMs": 1.827255
+      },
+      "response": {
+        "result": {
+          "result": "SUCCESS"
+        }
+      },
+      "outputs": {},
+      "result": "SUCCESS"
+    }
+  ]
+}

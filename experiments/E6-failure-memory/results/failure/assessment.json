@@ -1,0 +1,60 @@
+{
+  "scenario": "failure",
+  "passed": true,
+  "goalReached": true,
+  "actions": [
+    {
+      "action": "sharedProducer",
+      "result": "FAIL"
+    },
+    {
+      "action": "alternativeA",
+      "result": "SUCCESS"
+    },
+    {
+      "action": "alternativeB",
+      "result": "SUCCESS"
+    },
+    {
+      "action": "completeWork",
+      "result": "SUCCESS"
+    }
+  ],
+  "selectionEvents": [
+    {
+      "type": "affordance.selected",
+      "affordance": "completeWork",
+      "candidates": [
+        "completeWork"
+      ],
+      "sequence": 1
+    },
+    {
+      "type": "affordance.selected",
+      "affordance": "sharedProducer",
+      "candidates": [
+        "sharedProducer",
+        "alternativeA"
+      ],
+      "sequence": 4
+    },
+    {
+      "type": "affordance.selected",
+      "affordance": "alternativeA",
+      "candidates": [
+        "alternativeA"
+      ],
+      "sequence": 8
+    },
+    {
+      "type": "affordance.selected",
+      "affordance": "alternativeB",
+      "candidates": [
+        "alternativeB"
+      ],
+      "sequence": 12
+    }
+  ],
+  "sharedInvocationCount": 1,
+  "explanation": "A shared multi-effect affordance failed for conditionA and was excluded when conditionB was later resolved."
+}

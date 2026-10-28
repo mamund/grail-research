@@ -1,0 +1,11 @@
+
+[CLIENT] Starting pursuit: conditionA
+[CLIENT] Pushing goal affordance: establishA
+
+[SERVER] Attempting affordance: establishA
+[SERVER] Executing binding: ./capabilities/establish.mjs :: establishA
+[SERVER] Binding succeeded: ./capabilities/establish.mjs :: establishA
+[SERVER] Success: applying effects - conditionA
+[CLIENT] Affordance succeeded: establishA
+[CLIENT] Goal reached: conditionA
+E4_RESULT {"reached":true,"goal":"conditionA","observations":1,"traceEvents":3}

@@ -1,0 +1,36 @@
+{
+  "P1042": {
+    "id": "P1042",
+    "department": "Engineering",
+    "description": "Replacement development workstation",
+    "amount": 2450,
+    "policyGuidance": "Above $1,000: human reviewer should check budget and justification.",
+    "review": {
+      "status": "approved",
+      "note": ""
+    },
+    "processingStatus": "purchase-order-created",
+    "recorded": {
+      "recordId": "REC-P1042",
+      "status": "approved",
+      "processingStatus": "purchase-order-created"
+    }
+  },
+  "P1043": {
+    "id": "P1043",
+    "department": "Operations",
+    "description": "Office supplies",
+    "amount": 125.5,
+    "policyGuidance": "At or below $1,000: standard purchasing policy applies.",
+    "review": {
+      "status": "approved",
+      "note": "Much-needed supplies"
+    },
+    "processingStatus": "purchase-order-created",
+    "recorded": {
+      "recordId": "REC-P1043",
+      "status": "approved",
+      "processingStatus": "purchase-order-created"
+    }
+  }
+}

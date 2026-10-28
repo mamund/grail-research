@@ -1,0 +1,63 @@
+{
+  "pursuitId": "45eb84bb-846e-409f-bcee-c6115c8ffa67",
+  "goal": "workCompleted",
+  "reached": true,
+  "timing": {
+    "durationMs": 7.053878999999995
+  },
+  "worldstate": {
+    "conditionA": true,
+    "conditionB": true,
+    "workCompleted": true
+  },
+  "observations": [
+    {
+      "phase": "forward",
+      "pursuitId": "45eb84bb-846e-409f-bcee-c6115c8ffa67",
+      "invocation": {
+        "id": "ae2e07ce-ab87-4b86-b040-87b10737681f",
+        "affordance": "sharedProducer",
+        "timestamp": "2026-10-27T17:20:45.757Z",
+        "module": "./capabilities/actions.mjs",
+        "function": "sharedProducer",
+        "inputs": {
+          "mode": "control"
+        }
+      },
+      "timing": {
+        "durationMs": 1.67591
+      },
+      "response": {
+        "result": {
+          "result": "SUCCESS",
+          "source": "sharedProducer"
+        }
+      },
+      "outputs": {},
+      "result": "SUCCESS"
+    },
+    {
+      "phase": "forward",
+      "pursuitId": "45eb84bb-846e-409f-bcee-c6115c8ffa67",
+      "invocation": {
+        "id": "0b216ab2-2b3f-4947-8730-5069a3328c13",
+        "affordance": "completeWork",
+        "timestamp": "2026-10-27T17:20:45.760Z",
+        "module": "./capabilities/actions.mjs",
+        "function": "completeWork",
+        "inputs": {}
+      },
+      "timing": {
+        "durationMs": 0.118963
+      },
+      "response": {
+        "result": {
+          "result": "SUCCESS",
+          "source": "completeWork"
+        }
+      },
+      "outputs": {},
+      "result": "SUCCESS"
+    }
+  ]
+}

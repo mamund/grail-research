@@ -1,0 +1,26 @@
+[
+  {
+    "type": "affordance.selected",
+    "affordance": "recordCreation",
+    "candidates": [
+      "recordCreation"
+    ],
+    "sequence": 1
+  },
+  {
+    "type": "stack.push",
+    "affordance": "recordCreation",
+    "result": null,
+    "stack": [
+      "recordCreation"
+    ],
+    "sequence": 2
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "recordCreation",
+    "result": "SUCCESS",
+    "stack": [],
+    "sequence": 3
+  }
+]

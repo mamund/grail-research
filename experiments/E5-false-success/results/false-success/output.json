@@ -1,0 +1,41 @@
+{
+  "pursuitId": "e72d54e2-0f49-407a-93e4-69ffb8748f5b",
+  "goal": "recordCreated",
+  "reached": true,
+  "timing": {
+    "durationMs": 6.316974000000016
+  },
+  "worldstate": {
+    "recordCreated": true
+  },
+  "observations": [
+    {
+      "phase": "forward",
+      "pursuitId": "e72d54e2-0f49-407a-93e4-69ffb8748f5b",
+      "invocation": {
+        "id": "bdb2681b-95e6-42d0-969a-741fba39481b",
+        "affordance": "recordCreation",
+        "timestamp": "2026-10-27T17:15:18.998Z",
+        "module": "./capabilities/record.mjs",
+        "function": "recordCreation",
+        "inputs": {
+          "recordId": "E5-001",
+          "mode": "false-success",
+          "storePath": "/media/storage/Dropbox/Private/Projects/grail/grail-worlds/false-success-e5/results/false-success/domain-record.json"
+        }
+      },
+      "timing": {
+        "durationMs": 1.818239
+      },
+      "response": {
+        "result": {
+          "result": "SUCCESS",
+          "recordId": "E5-001",
+          "reportedStatus": "CREATED"
+        }
+      },
+      "outputs": {},
+      "result": "SUCCESS"
+    }
+  ]
+}

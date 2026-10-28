@@ -1,0 +1,10 @@
+{
+  "scenario": "truthful-success",
+  "goal": "recordCreated",
+  "reached": true,
+  "externalRecordExists": true,
+  "observationCount": 1,
+  "traceEventCount": 3,
+  "demonstratesFalseSuccess": false,
+  "controlPassed": true
+}

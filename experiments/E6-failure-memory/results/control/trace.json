@@ -1,0 +1,63 @@
+[
+  {
+    "type": "affordance.selected",
+    "affordance": "completeWork",
+    "candidates": [
+      "completeWork"
+    ],
+    "sequence": 1
+  },
+  {
+    "type": "stack.push",
+    "affordance": "completeWork",
+    "result": null,
+    "stack": [
+      "completeWork"
+    ],
+    "sequence": 2
+  },
+  {
+    "type": "condition.selected",
+    "condition": "conditionA",
+    "candidates": [
+      "conditionA",
+      "conditionB"
+    ],
+    "sequence": 3
+  },
+  {
+    "type": "affordance.selected",
+    "affordance": "sharedProducer",
+    "candidates": [
+      "sharedProducer",
+      "alternativeA"
+    ],
+    "sequence": 4
+  },
+  {
+    "type": "stack.push",
+    "affordance": "sharedProducer",
+    "result": null,
+    "stack": [
+      "completeWork",
+      "sharedProducer"
+    ],
+    "sequence": 5
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "sharedProducer",
+    "result": "SUCCESS",
+    "stack": [
+      "completeWork"
+    ],
+    "sequence": 6
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "completeWork",
+    "result": "SUCCESS",
+    "stack": [],
+    "sequence": 7
+  }
+]

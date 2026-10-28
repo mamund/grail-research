@@ -1,0 +1,40 @@
+
+[CLIENT] Starting pursuit: workCompleted
+[CLIENT] Pushing goal affordance: completeWork
+
+[SERVER] Attempting affordance: completeWork
+[SERVER] Blocked: selected unmet precondition: conditionA
+[CLIENT] Pushing next affordance: sharedProducer
+
+[SERVER] Attempting affordance: sharedProducer
+[SERVER] Executing binding: ./capabilities/actions.mjs :: sharedProducer
+[SERVER] Binding failed: E6 intentional sharedProducer failure
+[CLIENT] Affordance failed: sharedProducer
+
+[SERVER] Attempting affordance: completeWork
+[SERVER] Blocked: selected unmet precondition: conditionA
+[CLIENT] Pushing next affordance: alternativeA
+
+[SERVER] Attempting affordance: alternativeA
+[SERVER] Executing binding: ./capabilities/actions.mjs :: alternativeA
+[SERVER] Binding succeeded: ./capabilities/actions.mjs :: alternativeA
+[SERVER] Success: applying effects - conditionA
+[CLIENT] Affordance succeeded: alternativeA
+
+[SERVER] Attempting affordance: completeWork
+[SERVER] Blocked: selected unmet precondition: conditionB
+[CLIENT] Pushing next affordance: alternativeB
+
+[SERVER] Attempting affordance: alternativeB
+[SERVER] Executing binding: ./capabilities/actions.mjs :: alternativeB
+[SERVER] Binding succeeded: ./capabilities/actions.mjs :: alternativeB
+[SERVER] Success: applying effects - conditionB
+[CLIENT] Affordance succeeded: alternativeB
+
+[SERVER] Attempting affordance: completeWork
+[SERVER] Executing binding: ./capabilities/actions.mjs :: completeWork
+[SERVER] Binding succeeded: ./capabilities/actions.mjs :: completeWork
+[SERVER] Success: applying effects - workCompleted
+[CLIENT] Affordance succeeded: completeWork
+[CLIENT] Goal reached: workCompleted
+E6_RESULT {"scenario":"failure","passed":true,"actions":[{"action":"sharedProducer","result":"FAIL"},{"action":"alternativeA","result":"SUCCESS"},{"action":"alternativeB","result":"SUCCESS"},{"action":"completeWork","result":"SUCCESS"}]}

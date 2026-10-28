@@ -1,0 +1,134 @@
+[
+  {
+    "type": "affordance.selected",
+    "affordance": "completeWork",
+    "candidates": [
+      "completeWork"
+    ],
+    "sequence": 1
+  },
+  {
+    "type": "stack.push",
+    "affordance": "completeWork",
+    "result": null,
+    "stack": [
+      "completeWork"
+    ],
+    "sequence": 2
+  },
+  {
+    "type": "condition.selected",
+    "condition": "conditionA",
+    "candidates": [
+      "conditionA",
+      "conditionB"
+    ],
+    "sequence": 3
+  },
+  {
+    "type": "affordance.selected",
+    "affordance": "sharedProducer",
+    "candidates": [
+      "sharedProducer",
+      "alternativeA"
+    ],
+    "sequence": 4
+  },
+  {
+    "type": "stack.push",
+    "affordance": "sharedProducer",
+    "result": null,
+    "stack": [
+      "completeWork",
+      "sharedProducer"
+    ],
+    "sequence": 5
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "sharedProducer",
+    "result": "FAIL",
+    "stack": [
+      "completeWork"
+    ],
+    "sequence": 6
+  },
+  {
+    "type": "condition.selected",
+    "condition": "conditionA",
+    "candidates": [
+      "conditionA",
+      "conditionB"
+    ],
+    "sequence": 7
+  },
+  {
+    "type": "affordance.selected",
+    "affordance": "alternativeA",
+    "candidates": [
+      "alternativeA"
+    ],
+    "sequence": 8
+  },
+  {
+    "type": "stack.push",
+    "affordance": "alternativeA",
+    "result": null,
+    "stack": [
+      "completeWork",
+      "alternativeA"
+    ],
+    "sequence": 9
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "alternativeA",
+    "result": "SUCCESS",
+    "stack": [
+      "completeWork"
+    ],
+    "sequence": 10
+  },
+  {
+    "type": "condition.selected",
+    "condition": "conditionB",
+    "candidates": [
+      "conditionB"
+    ],
+    "sequence": 11
+  },
+  {
+    "type": "affordance.selected",
+    "affordance": "alternativeB",
+    "candidates": [
+      "alternativeB"
+    ],
+    "sequence": 12
+  },
+  {
+    "type": "stack.push",
+    "affordance": "alternativeB",
+    "result": null,
+    "stack": [
+      "completeWork",
+      "alternativeB"
+    ],
+    "sequence": 13
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "alternativeB",
+    "result": "SUCCESS",
+    "stack": [
+      "completeWork"
+    ],
+    "sequence": 14
+  },
+  {
+    "type": "stack.pop",
+    "affordance": "completeWork",
+    "result": "SUCCESS",
+    "stack": [],
+    "sequence": 15
+  }
+]
